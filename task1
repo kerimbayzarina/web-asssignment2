@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Task 1 - Simple Layout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  
+  <div class="header">
+    <h1>My First Website</h1>
+  </div>
+
+ 
+  <div class="navbar">
+    <a href="index.html">Home</a>body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.header {
+  background-color: rgb(171, 70, 180);
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.navbar {
+  background-color: #33333375;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: inline-block;
+}
+.navbar a:hover {
+  background-color: #555;
+}
+
+.sidebar {
+  float: left;
+  width: 25%;
+  background-color: #dddddd39;
+  padding: 15px;
+  height: 250px; 
+}
+
+.content {
+  float: right;
+  width: 70%;
+  background-color: white;
+  padding: 15px;
+  min-height: 250px;
+}
+
+.footer {
+  clear: both;
+  background-color: steelblue;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+    <a href="tribute.html">Tribute</a>
+    <a href="table-form.html">Table & Form</a>
+    <a href="#">Contact</a>
+  </div>
+
+ 
+  <div class="sidebar">
+    <h3>Menu</h3>
+    <ul>
+      <li>Page One</li>
+      <li>Page Two</li>
+      <li>Page Three</li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <h2>Welcome</h2>
+    <p>My name is Zarina and I am 18 years old.I live in Astana.Astana is a young and developing city</p>
+  </div>
+
+  
+  <div class="footer">
+    <p> 2025 My First Website</p>
+  </div>
+
+</body>
+</html>
