@@ -14,7 +14,37 @@
 
  
   <div class="navbar">
-    <a href="index.html">Home</a>body {
+    <a href="index.html">Home</a>
+    <a href="tribute.html">Tribute</a>
+    <a href="table-form.html">Table & Form</a>
+    <a href="#">Contact</a>
+  </div>
+
+ 
+  <div class="sidebar">
+    <h3>Menu</h3>
+    <ul>
+      <li>Page One</li>
+      <li>Page Two</li>
+      <li>Page Three</li>
+    </ul>
+  </div>
+
+  <div class="content">
+    <h2>Welcome</h2>
+    <p>My name is Zarina and I am 18 years old.I live in Astana.Astana is a young and developing city</p>
+  </div>
+
+  
+  <div class="footer">
+    <p> 2025 My First Website</p>
+  </div>
+
+</body>
+</html>
+
+
+body {
   margin: 0;
   font-family: Verdana, sans-serif;
   background-color: #f0f0f0;
@@ -63,31 +93,3 @@
   text-align: center;
   padding: 10px;
 }
-
-    <a href="tribute.html">Tribute</a>
-    <a href="table-form.html">Table & Form</a>
-    <a href="#">Contact</a>
-  </div>
-
- 
-  <div class="sidebar">
-    <h3>Menu</h3>
-    <ul>
-      <li>Page One</li>
-      <li>Page Two</li>
-      <li>Page Three</li>
-    </ul>
-  </div>
-
-  <div class="content">
-    <h2>Welcome</h2>
-    <p>My name is Zarina and I am 18 years old.I live in Astana.Astana is a young and developing city</p>
-  </div>
-
-  
-  <div class="footer">
-    <p> 2025 My First Website</p>
-  </div>
-
-</body>
-</html>
